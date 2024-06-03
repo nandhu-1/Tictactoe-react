@@ -88,6 +88,7 @@ const handleplayername=(symbol,newName)=>{
     <main>
       <div id="game-container">
         <ol id="players" className="highlight-player">
+          
           <Player name={PLAYERS.X} symbol="X" isActive={activeplayer === "X"} changename={handleplayername}/>
           <Player name={PLAYERS.O} symbol="O" isActive={activeplayer === "O"} changename={handleplayername}/>
         </ol>
